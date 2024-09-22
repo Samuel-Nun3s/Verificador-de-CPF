@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de CPF:</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de CPF</h1>
+    </header>
+    <section>
+        <div id="formulario">
+            <form>
+                <label for="cpf">Insira seu CPF:</label>
+                <input type="text" name="cpf" id="cpf" placeholder="xxx.xxx.xxx-xx"><br>
+                <input type="button" value="Verificar" onclick="verificador()" id="botao">
+            </form>
+        </div>
+        <div id="resultado">
+            <p>CPF:</p>
+            <p id="resposta"></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; <strong>Samuel Nunes</strong></p>
+    </footer>
+</body>
+</html>
